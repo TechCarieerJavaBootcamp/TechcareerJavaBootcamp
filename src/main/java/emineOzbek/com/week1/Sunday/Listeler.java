@@ -1,8 +1,6 @@
 package emineOzbek.com.week1.Sunday;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Listeler {
     public static void main(String[] args) {
@@ -44,6 +42,24 @@ public class Listeler {
 
 //        Arrays.asList();
 //        List.of();
+
+//        List<String> list1 = Arrays.asList(null);
+//        System.out.println(list1);
+//        List<String> list2 = List.of(null);
+//        System.out.println(list2);
+
+        // Arrays.asList() //null işleme
+        String[] arrayWithNull = {"Java", null, "C++"}; // NullPointerException
+      //  List<String> listWithNull = Arrays.asList(arrayWithNull);
+
+       //  List.of() //null işleme
+     //   List<String> immutableListWithNull = List.of("Java", null, "C++"); // NullPointerException
+      //  System.out.println(immutableListWithNull);
+
+        Set<String> set = new HashSet<>();
+        set.add("Emine");
+        set.add("Emine");
+        System.out.println();
 
 
     }
