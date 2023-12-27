@@ -12,5 +12,6 @@ public class CustomerClient {
         customerService2.getCustomerData();
         customerService2.getCustomerData(false);
 
+
     }
 }
